@@ -16,9 +16,6 @@
       "com.peasenet.mod.MobEspMod"
     ]
   },
-  "mixins": [
-    "gem-mobesp.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "gemclient-core": ">=1.0.1",
