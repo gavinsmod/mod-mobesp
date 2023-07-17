@@ -20,10 +20,12 @@
 package com.peasenet.mods.esp
 
 import com.peasenet.gui.mod.esp.GuiEsp
+import com.peasenet.gui.mod.esp.GuiMobEsp
 import com.peasenet.settings.SettingBuilder
 import com.peasenet.util.RenderUtils
 import com.peasenet.util.event.data.EntityRender
 import com.peasenet.util.listeners.EntityRenderListener
+import net.minecraft.client.MinecraftClient
 import net.minecraft.entity.mob.MobEntity
 
 /**
@@ -39,7 +41,7 @@ class ModMobEsp : EspMod(
     init {
         val menu = SettingBuilder()
             .setTitle("gavinsmod.settings.mobesp")
-            .setCallback { client.setScreen(GuiEsp()) }
+            .setCallback { MinecraftClient.getInstance().setScreen(GuiMobEsp()) }
             .buildClickSetting()
         addSetting(menu)
     }

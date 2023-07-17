@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "mod-template",
+  "id": "gem-mobesp",
   "version": "${version}",
-  "name": "mod-template",
+  "name": "gem-mobesp",
   "description": "",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/gavinsmod/mod-template"
+    "repo": "https://github.com/gavinsmod/gem-mobesp"
   },
   "license": "MIT",
-  "icon": "assets/mod-template/icon.png",
+  "icon": "assets/gem-mobesp/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": [
@@ -17,11 +17,11 @@
     ]
   },
   "mixins": [
-    "mod-template.mixins.json"
+    "gem-mobesp.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "gavinsmod": ">=1.4.5",
+    "gemclient-core": ">=1.0.1",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
