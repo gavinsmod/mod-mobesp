@@ -19,7 +19,6 @@
  */
 package com.peasenet.mods.esp
 
-import com.peasenet.gui.mod.esp.GuiEsp
 import com.peasenet.gui.mod.esp.GuiMobEsp
 import com.peasenet.settings.SettingBuilder
 import com.peasenet.util.RenderUtils
