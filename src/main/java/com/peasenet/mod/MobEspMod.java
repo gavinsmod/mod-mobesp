@@ -7,7 +7,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MobEspMod implements ModInitializer {
-    public static Logger LOGGER = LoggerFactory.getLogger("gavinsmod");
 
     /**
      * Runs the mod initializer.
